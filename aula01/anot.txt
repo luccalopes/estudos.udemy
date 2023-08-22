@@ -1,0 +1,2 @@
+comentarios de linha sao representados por #
+comentarios de multiplas linhas são representados por um trio de aspas duplas para abrir e fechar - comentarios são chamados de DocString
