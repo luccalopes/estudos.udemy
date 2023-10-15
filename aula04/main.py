@@ -5,6 +5,7 @@ print(type(1.2), type(-1.1), type(0.0))
 print(10 == '10')
 print(int(1), type(int('1')))
 print(float('1') + 1)
+print(str(11) + 'b')
 
 def concatenateString() :
     print('10' + '10')
