@@ -1,7 +1,9 @@
 a = 'A'
 b = 'B'
 c = 1.1
-string = 'a={} b={} c={:.3f}'
-formato = string.format(a, b, c)
+d = 'amo a minha namorada'
+string = 'a={} b={} c={:.3f} d={}'
+formato = string.format(a, b, c, d)
+
 
 print(formato)
