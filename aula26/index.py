@@ -4,6 +4,8 @@ print(f'{variavel: >10}')
 print(f'{variavel: <10}')
 print(f'{variavel: ^10}')
 print(f'{+1000.378378346:+,.2f}')
+print(f'O hexadecimal de 1500 é {1500:08X}')
+print(f'{variavel!r}')
 
 # > significa que vai ter 10 espaços vazios à direita da string da variavel
 # < significa que vai ter 10 espaços vazios à esquerda da string
