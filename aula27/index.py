@@ -1,5 +1,5 @@
 variavel = 'Olá mundo'
-# print(variavel[0:5])
+print(variavel[0:5])
 print(variavel[0:len(variavel):1])
 
 # podemos fatiar as strings com o início, o fim e um passo i:f:p 
@@ -9,6 +9,7 @@ print(variavel[0:len(variavel):1])
 # o mesmo acontece ao contrário, posso omitir o índice final da fatia se ele representar o último índice da string
 # se eu quiser indicar um final para esta fatia que não corresponda ao final da string original, deve-se sempre contar um índice a mais 
 # (exemplo: 0:5 em 'olá mundo representa o quarto índice na string iterável, ou seja, o espaço em branco então a fatia teria uma saída de 'olá m)
+# o modelo de início, fim e passo deve seguir a regra dentro dos colchetes e separados por dois pontos
 # 012345678
 # Olá mundo
 #-987654321
